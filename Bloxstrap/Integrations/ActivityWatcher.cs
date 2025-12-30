@@ -1,8 +1,8 @@
-﻿namespace Bloxstrap.Integrations
+﻿namespace AetherStrap.Integrations
 {
     public class ActivityWatcher : IDisposable
     {
-        private const string GameMessageEntry                = "[FLog::Output] [BloxstrapRPC]";
+        private const string GameMessageEntry                = "[FLog::Output] [AetherStrapRPC]";
         private const string GameJoiningEntry                = "[FLog::Output] ! Joining game";
 
         // these entries are technically volatile!
@@ -23,7 +23,7 @@
         private const string GameJoiningUniversePattern      = @"universeid:([0-9]+).*userid:([0-9]+)";
         private const string GameJoiningUDMUXPattern         = @"UDMUX Address = ([0-9\.]+), Port = [0-9]+ \| RCC Server Address = ([0-9\.]+), Port = [0-9]+";
         private const string GameJoinedEntryPattern          = @"serverId: ([0-9\.]+)\|[0-9]+";
-        private const string GameMessageEntryPattern         = @"\[BloxstrapRPC\] (.*)";
+        private const string GameMessageEntryPattern         = @"\[AetherStrapRPC\] (.*)";
 
         private int _logEntriesRead = 0;
         private bool _teleportMarker = false;

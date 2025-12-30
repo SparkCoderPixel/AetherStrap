@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap
+﻿namespace AetherStrap
 {
     internal class HttpClientLoggingHandler : MessageProcessingHandler
     {

@@ -1,8 +1,8 @@
 using System.Windows;
-using Bloxstrap.Models.RobloxApi;
+using AetherStrap.Models.RobloxApi;
 using DiscordRPC;
 
-namespace Bloxstrap.Integrations
+namespace AetherStrap.Integrations
 {
     public class DiscordRichPresence : IDisposable
     {
@@ -165,7 +165,7 @@ namespace Bloxstrap.Integrations
         private void ProcessSetRichPresence(Message message, bool implicitUpdate)
         {
             const string LOG_IDENT = "DiscordRichPresence::ProcessSetRichPresence";
-            Models.BloxstrapRPC.RichPresence? presenceData;
+            Models.AetherStrapRPC.RichPresence? presenceData;
 
             Debug.Assert(_currentPresence is not null);
             Debug.Assert(_originalPresence is not null);
@@ -178,7 +178,7 @@ namespace Bloxstrap.Integrations
 
             try
             {
-                presenceData = message.Data.Deserialize<Models.BloxstrapRPC.RichPresence>();
+                presenceData = message.Data.Deserialize<Models.AetherStrapRPC.RichPresence>();
             }
             catch (Exception)
             {
@@ -413,7 +413,7 @@ namespace Bloxstrap.Integrations
                 }
             };
 
-            // this is used for configuration from BloxstrapRPC
+            // this is used for configuration from AetherStrapRPC
             _originalPresence = _currentPresence.Clone();
 
             if (_messageQueue.Any())

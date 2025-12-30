@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.BloxstrapRPC
+﻿namespace AetherStrap.Models.AetherStrapRPC
 {
     class RichPresenceImage
     {

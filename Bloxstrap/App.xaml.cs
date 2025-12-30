@@ -6,7 +6,7 @@ using System.Windows.Threading;
 
 using Microsoft.Win32;
 
-namespace Bloxstrap
+namespace AetherStrap
 {
     /// <summary>
     /// Interaction logic for App.xaml
@@ -14,15 +14,15 @@ namespace Bloxstrap
     public partial class App : Application
     {
 #if QA_BUILD
-        public const string ProjectName = "Bloxstrap-QA";
+        public const string ProjectName = "AetherStrap-QA";
 #else
-        public const string ProjectName = "Bloxstrap";
+        public const string ProjectName = "AetherStrap";
 #endif
-        public const string ProjectOwner = "Bloxstrap";
-        public const string ProjectRepository = "bloxstraplabs/bloxstrap";
-        public const string ProjectDownloadLink = "https://bloxstraplabs.com";
-        public const string ProjectHelpLink = "https://bloxstraplabs.com/wiki/help/";
-        public const string ProjectSupportLink = "https://github.com/bloxstraplabs/bloxstrap/issues/new";
+        public const string ProjectOwner = "AetherStrap";
+        public const string ProjectRepository = "AetherStraplabs/AetherStrap";
+        public const string ProjectDownloadLink = "https://AetherStraplabs.com";
+        public const string ProjectHelpLink = "https://AetherStraplabs.com/wiki/help/";
+        public const string ProjectSupportLink = "https://github.com/AetherStraplabs/AetherStrap/issues/new";
 
         public const string RobloxPlayerAppName = "RobloxPlayerBeta";
         public const string RobloxStudioAppName = "RobloxStudioBeta";
@@ -77,7 +77,7 @@ namespace Bloxstrap
                 if (_webUrl != null)
                     return _webUrl;
 
-                string url = ConstructBloxstrapWebUrl();
+                string url = ConstructAetherStrapWebUrl();
                 if (Settings.Loaded) // only cache if settings are done loading
                     _webUrl = url;
                 return url;
@@ -144,14 +144,14 @@ namespace Bloxstrap
             Terminate(ErrorCode.ERROR_INSTALL_FAILURE);
         }
 
-        public static string ConstructBloxstrapWebUrl()
+        public static string ConstructAetherStrapWebUrl()
         {
             // dont let user switch web environment if debug mode is not on
             if (Settings.Prop.WebEnvironment == WebEnvironment.Production || !Settings.Prop.DeveloperMode)
-                return "services.bloxstraplabs.com";
+                return "services.AetherStraplabs.com";
 
             string? sub = Settings.Prop.WebEnvironment.GetDescription();
-            return $"services-{sub}.bloxstraplabs.com";
+            return $"services-{sub}.AetherStraplabs.com";
         }
 
         public static bool CanSendLogs()

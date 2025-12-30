@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Enums
+﻿namespace AetherStrap.Enums
 {
     public enum CursorType
     {

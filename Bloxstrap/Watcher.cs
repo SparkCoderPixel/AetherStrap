@@ -1,8 +1,8 @@
-﻿using Bloxstrap.AppData;
-using Bloxstrap.Integrations;
-using Bloxstrap.Models;
+﻿using AetherStrap.AppData;
+using AetherStrap.Integrations;
+using AetherStrap.Models;
 
-namespace Bloxstrap
+namespace AetherStrap
 {
     public class Watcher : IDisposable
     {

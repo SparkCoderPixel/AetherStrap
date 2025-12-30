@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models
+﻿namespace AetherStrap.Models
 {
     public class DeployInfo
     {

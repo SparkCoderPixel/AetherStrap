@@ -4,7 +4,7 @@ using System.Windows.Media;
 using System.Xml;
 using System.Xml.Linq;
 
-namespace Bloxstrap.UI.Elements.Bootstrapper
+namespace AetherStrap.UI.Elements.Bootstrapper
 {
     public partial class CustomDialog
     {

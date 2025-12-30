@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap
+﻿namespace AetherStrap
 {
     public static class GlobalCache
     {

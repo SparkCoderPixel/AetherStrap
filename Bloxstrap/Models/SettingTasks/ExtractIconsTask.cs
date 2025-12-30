@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace Bloxstrap.Models.SettingTasks
+namespace AetherStrap.Models.SettingTasks
 {
     public class ExtractIconsTask : BoolBaseTask
     {
@@ -22,7 +22,7 @@ namespace Bloxstrap.Models.SettingTasks
 
                 foreach (string name in resourceNames)
                 {
-                    string path = Path.Combine(_path, name.Replace("Bloxstrap.Resources.", ""));
+                    string path = Path.Combine(_path, name.Replace("AetherStrap.Resources.", ""));
                     var stream = assembly.GetManifestResourceStream(name)!;
 
                     using var memoryStream = new MemoryStream();

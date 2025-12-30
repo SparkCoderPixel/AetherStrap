@@ -1,6 +1,6 @@
-﻿using Bloxstrap.Enums.FlagPresets;
+﻿using AetherStrap.Enums.FlagPresets;
 
-namespace Bloxstrap
+namespace AetherStrap
 {
     public class FastFlagManager : JsonManager<Dictionary<string, object>>
     {

@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.Manifest
+﻿namespace AetherStrap.Models.Manifest
 {
     public class ManifestFile
     {

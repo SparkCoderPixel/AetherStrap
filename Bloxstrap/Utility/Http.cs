@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Utility
+﻿namespace AetherStrap.Utility
 {
     internal static class Http
     {

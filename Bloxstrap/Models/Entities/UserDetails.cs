@@ -1,6 +1,6 @@
-﻿using Bloxstrap.Models.RobloxApi;
+﻿using AetherStrap.Models.RobloxApi;
 
-namespace Bloxstrap.Models.Entities
+namespace AetherStrap.Models.Entities
 {
     public class UserDetails
     {

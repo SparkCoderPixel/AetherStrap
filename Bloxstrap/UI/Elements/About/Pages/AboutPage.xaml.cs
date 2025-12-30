@@ -1,9 +1,9 @@
-﻿using Bloxstrap.UI.ViewModels.About;
+﻿using AetherStrap.UI.ViewModels.About;
 
 using System.Windows.Input;
 using System.Windows.Media.Animation;
 
-namespace Bloxstrap.UI.Elements.About.Pages
+namespace AetherStrap.UI.Elements.About.Pages
 {
     /// <summary>
     /// Interaction logic for AboutPage.xaml

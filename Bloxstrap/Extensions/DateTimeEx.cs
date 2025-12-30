@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Extensions
+﻿namespace AetherStrap.Extensions
 {
     static class DateTimeEx
     {

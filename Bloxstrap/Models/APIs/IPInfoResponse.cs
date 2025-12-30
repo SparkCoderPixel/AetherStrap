@@ -1,4 +1,4 @@
-namespace Bloxstrap.Models.APIs
+namespace AetherStrap.Models.APIs
 {
     public class IPInfoResponse
     {

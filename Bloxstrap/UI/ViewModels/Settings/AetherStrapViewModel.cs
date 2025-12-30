@@ -4,9 +4,9 @@ using CommunityToolkit.Mvvm.Input;
 using ICSharpCode.SharpZipLib.Zip;
 using Microsoft.Win32;
 
-namespace Bloxstrap.UI.ViewModels.Settings
+namespace AetherStrap.UI.ViewModels.Settings
 {
-    public class BloxstrapViewModel : NotifyPropertyChangedViewModel
+    public class AetherStrapViewModel : NotifyPropertyChangedViewModel
     {
         public WebEnvironment[] WebEnvironments => Enum.GetValues<WebEnvironment>();
 
@@ -42,7 +42,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
 
             var dialog = new SaveFileDialog 
             { 
-                FileName = $"Bloxstrap-export-{timestamp}.zip",
+                FileName = $"AetherStrap-export-{timestamp}.zip",
                 Filter = $"{Strings.FileTypes_ZipArchive}|*.zip" 
             };
 

@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.AppData
+﻿namespace AetherStrap.AppData
 {
     internal interface IAppData
     {

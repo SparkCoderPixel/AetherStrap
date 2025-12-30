@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.RobloxInterfaces
+﻿namespace AetherStrap.RobloxInterfaces
 {
     public static class Deployment
     {

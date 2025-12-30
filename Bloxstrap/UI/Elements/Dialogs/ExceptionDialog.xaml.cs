@@ -6,7 +6,7 @@ using System.Windows.Interop;
 using Windows.Win32;
 using Windows.Win32.Foundation;
 
-namespace Bloxstrap.UI.Elements.Dialogs
+namespace AetherStrap.UI.Elements.Dialogs
 {
     // hmm... do i use MVVM for this?
     // this is entirely static, so i think im fine without it, and this way is just so much more efficient
@@ -27,7 +27,7 @@ namespace Bloxstrap.UI.Elements.Dialogs
                 LocateLogFileButton.Content = Strings.Dialog_Exception_CopyLogContents;
 
             string repoUrl = $"https://github.com/{App.ProjectRepository}";
-            string wikiUrl = $"https://bloxstraplabs.com/wiki/help/";
+            string wikiUrl = $"https://AetherStraplabs.com/wiki/help/";
 
             string title = HttpUtility.UrlEncode($"[BUG] {exception.GetType()}: {exception.Message}");
             string log = HttpUtility.UrlEncode(App.Logger.AsDocument);

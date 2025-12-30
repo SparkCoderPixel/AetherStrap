@@ -1,8 +1,8 @@
-﻿using Bloxstrap.Integrations;
-using Bloxstrap.UI.Elements.About;
-using Bloxstrap.UI.Elements.ContextMenu;
+﻿using AetherStrap.Integrations;
+using AetherStrap.UI.Elements.About;
+using AetherStrap.UI.Elements.ContextMenu;
 
-namespace Bloxstrap.UI
+namespace AetherStrap.UI
 {
     public class NotifyIconWrapper : IDisposable
     {
@@ -28,7 +28,7 @@ namespace Bloxstrap.UI
 
             _notifyIcon = new(new System.ComponentModel.Container())
             {
-                Icon = Properties.Resources.IconBloxstrap,
+                Icon = Properties.Resources.IconAetherStrap,
                 Text = App.ProjectName,
                 Visible = true
             };

@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.APIs.Config
+﻿namespace AetherStrap.Models.APIs.Config
 {
     public class Supporter
     {
@@ -8,6 +8,6 @@
         [JsonPropertyName("name")]
         public string Name { get; set; } = null!;
 
-        public string Image => $"https://raw.githubusercontent.com/bloxstraplabs/config/main/assets/{ImageAsset}";
+        public string Image => $"https://raw.githubusercontent.com/AetherStraplabs/config/main/assets/{ImageAsset}";
     }
 }

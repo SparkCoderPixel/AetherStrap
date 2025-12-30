@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using Microsoft.Win32;
 
-namespace Bloxstrap
+namespace AetherStrap
 {
     internal class Installer
     {
@@ -79,7 +79,7 @@ namespace Bloxstrap
                 uninstallKey.SetValueSafe("URLUpdateInfo", App.ProjectDownloadLink);
             }
 
-            // only register player, for the scenario where the user installs bloxstrap, closes it,
+            // only register player, for the scenario where the user installs AetherStrap, closes it,
             // and then launches from the website expecting it to work
             // studio can be implicitly registered when it's first launched manually or if its configuration files are present
             WindowsRegistry.RegisterPlayer();
@@ -517,7 +517,7 @@ namespace Bloxstrap
                     }
 
                     string oldDesktopPath = Path.Combine(Paths.Desktop, "Play Roblox.lnk");
-                    string oldStartPath = Path.Combine(Paths.WindowsStartMenu, "Bloxstrap");
+                    string oldStartPath = Path.Combine(Paths.WindowsStartMenu, "AetherStrap");
 
                     if (File.Exists(oldDesktopPath))
                         File.Move(oldDesktopPath, DesktopShortcut, true);
@@ -536,7 +536,7 @@ namespace Bloxstrap
                         Shortcut.Create(Paths.Application, "", StartMenuShortcut);
                     }
 
-                    Registry.CurrentUser.DeleteSubKeyTree("Software\\Bloxstrap", false);
+                    Registry.CurrentUser.DeleteSubKeyTree("Software\\AetherStrap", false);
 
                     WindowsRegistry.RegisterPlayer();
                 }
@@ -601,7 +601,7 @@ namespace Bloxstrap
             {
 #pragma warning disable CS0162 // Unreachable code detected
                 if (OpenReleaseNotes)
-                    Utilities.ShellExecute($"https://github.com/{App.ProjectRepository}/wiki/Release-notes-for-Bloxstrap-v{currentVer}");
+                    Utilities.ShellExecute($"https://github.com/{App.ProjectRepository}/wiki/Release-notes-for-AetherStrap-v{currentVer}");
 #pragma warning restore CS0162 // Unreachable code detected
             }
             else

@@ -1,6 +1,6 @@
 ﻿using System.Windows;
 
-namespace Bloxstrap
+namespace AetherStrap
 {
     internal static class Locale
     {

@@ -1,6 +1,6 @@
-﻿using Bloxstrap.RobloxInterfaces;
+﻿using AetherStrap.RobloxInterfaces;
 
-namespace Bloxstrap.Models.Manifest
+namespace AetherStrap.Models.Manifest
 {
     public class FileManifest : List<ManifestFile>
     {

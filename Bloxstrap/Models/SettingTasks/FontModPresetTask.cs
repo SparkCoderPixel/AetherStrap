@@ -1,6 +1,6 @@
-﻿using Bloxstrap.Models.SettingTasks.Base;
+﻿using AetherStrap.Models.SettingTasks.Base;
 
-namespace Bloxstrap.Models.SettingTasks
+namespace AetherStrap.Models.SettingTasks
 {
     public class FontModPresetTask : StringBaseTask
     {

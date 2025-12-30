@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.Persistable
+﻿namespace AetherStrap.Models.Persistable
 {
     public class WindowState
     {

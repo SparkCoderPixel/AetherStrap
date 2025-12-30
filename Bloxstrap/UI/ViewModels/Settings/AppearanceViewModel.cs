@@ -8,11 +8,11 @@ using ICSharpCode.SharpZipLib.Zip;
 
 using Microsoft.Win32;
 
-using Bloxstrap.UI.Elements.Settings;
-using Bloxstrap.UI.Elements.Editor;
-using Bloxstrap.UI.Elements.Dialogs;
+using AetherStrap.UI.Elements.Settings;
+using AetherStrap.UI.Elements.Editor;
+using AetherStrap.UI.Elements.Dialogs;
 
-namespace Bloxstrap.UI.ViewModels.Settings
+namespace AetherStrap.UI.ViewModels.Settings
 {
     public class AppearanceViewModel : NotifyPropertyChangedViewModel
     {
@@ -120,7 +120,7 @@ namespace Bloxstrap.UI.ViewModels.Settings
                 if (String.IsNullOrEmpty(value))
                 {
                     if (App.Settings.Prop.BootstrapperIcon == BootstrapperIcon.IconCustom)
-                        App.Settings.Prop.BootstrapperIcon = BootstrapperIcon.IconBloxstrap;
+                        App.Settings.Prop.BootstrapperIcon = BootstrapperIcon.IconAetherStrap;
                 }
                 else
                 {

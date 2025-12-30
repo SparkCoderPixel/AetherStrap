@@ -7,11 +7,11 @@ using ICSharpCode.AvalonEdit.Editing;
 using ICSharpCode.AvalonEdit.Highlighting.Xshd;
 using ICSharpCode.AvalonEdit.Highlighting;
 
-using Bloxstrap.UI.Elements.Base;
-using Bloxstrap.UI.ViewModels.Editor;
+using AetherStrap.UI.Elements.Base;
+using AetherStrap.UI.ViewModels.Editor;
 using System.Windows;
 
-namespace Bloxstrap.UI.Elements.Editor
+namespace AetherStrap.UI.Elements.Editor
 {
     /// <summary>
     /// Interaction logic for BootstrapperEditorWindow.xaml

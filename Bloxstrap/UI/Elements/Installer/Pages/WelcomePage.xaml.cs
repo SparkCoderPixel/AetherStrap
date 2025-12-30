@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using Bloxstrap.UI.ViewModels.Installer;
+using AetherStrap.UI.ViewModels.Installer;
 
-namespace Bloxstrap.UI.Elements.Installer.Pages
+namespace AetherStrap.UI.Elements.Installer.Pages
 {
     /// <summary>
     /// Interaction logic for WelcomePage.xaml

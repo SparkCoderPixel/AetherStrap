@@ -1,10 +1,10 @@
-﻿using Bloxstrap.UI.Elements.Bootstrapper.Base;
-using Bloxstrap.UI.ViewModels.Bootstrapper;
+﻿using AetherStrap.UI.Elements.Bootstrapper.Base;
+using AetherStrap.UI.ViewModels.Bootstrapper;
 using System.ComponentModel;
 using System.Windows.Forms;
 using System.Windows.Shell;
 
-namespace Bloxstrap.UI.Elements.Bootstrapper
+namespace AetherStrap.UI.Elements.Bootstrapper
 {
     /// <summary>
     /// Interaction logic for CustomDialog.xaml
@@ -13,7 +13,7 @@ namespace Bloxstrap.UI.Elements.Bootstrapper
     {
         private readonly BootstrapperDialogViewModel _viewModel;
 
-        public Bloxstrap.Bootstrapper? Bootstrapper { get; set; }
+        public AetherStrap.Bootstrapper? Bootstrapper { get; set; }
 
         private bool _isClosing;
 

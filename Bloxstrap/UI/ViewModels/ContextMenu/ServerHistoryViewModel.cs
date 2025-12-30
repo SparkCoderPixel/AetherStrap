@@ -1,8 +1,8 @@
 ﻿using System.Windows.Input;
-using Bloxstrap.Integrations;
+using AetherStrap.Integrations;
 using CommunityToolkit.Mvvm.Input;
 
-namespace Bloxstrap.UI.ViewModels.ContextMenu
+namespace AetherStrap.UI.ViewModels.ContextMenu
 {
     internal class ServerHistoryViewModel : NotifyPropertyChangedViewModel
     {

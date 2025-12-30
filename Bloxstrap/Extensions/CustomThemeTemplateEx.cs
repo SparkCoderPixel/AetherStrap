@@ -1,10 +1,10 @@
 ﻿using System.Text;
 
-namespace Bloxstrap.Extensions
+namespace AetherStrap.Extensions
 {
     static class CustomThemeTemplateEx
     {
-        const string EXAMPLES_URL = "https://github.com/bloxstraplabs/custom-bootstrapper-examples";
+        const string EXAMPLES_URL = "https://github.com/AetherStraplabs/custom-bootstrapper-examples";
 
         public static string GetFileName(this CustomThemeTemplate template)
         {

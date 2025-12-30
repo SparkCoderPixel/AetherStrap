@@ -1,6 +1,6 @@
 ﻿using System.Windows.Media;
 
-namespace Bloxstrap.Models
+namespace AetherStrap.Models
 {
     public class BootstrapperIconEntry
     {

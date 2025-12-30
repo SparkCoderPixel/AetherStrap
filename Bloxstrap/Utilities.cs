@@ -1,7 +1,7 @@
-﻿using Bloxstrap.AppData;
+﻿using AetherStrap.AppData;
 using System.ComponentModel;
 
-namespace Bloxstrap
+namespace AetherStrap
 {
     static class Utilities
     {
@@ -65,7 +65,7 @@ namespace Bloxstrap
             catch (Exception)
             {
                 // temporary diagnostic log for the issue described here:
-                // https://github.com/bloxstraplabs/bloxstrap/issues/3193
+                // https://github.com/AetherStraplabs/AetherStrap/issues/3193
                 // the problem is that this happens only on upgrade, so my only hope of catching this is bug reports following the next release
 
                 App.Logger.WriteLine("Utilities::CompareVersions", "An exception occurred when comparing versions");
@@ -150,7 +150,7 @@ namespace Bloxstrap
 
         public static void KillBackgroundUpdater()
         {
-            using EventWaitHandle handle = new EventWaitHandle(false, EventResetMode.AutoReset, "Bloxstrap-BackgroundUpdaterKillEvent");
+            using EventWaitHandle handle = new EventWaitHandle(false, EventResetMode.AutoReset, "AetherStrap-BackgroundUpdaterKillEvent");
             handle.Set();
         }
     }

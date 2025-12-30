@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Exceptions
+﻿namespace AetherStrap.Exceptions
 {
     public class InvalidChannelException : Exception
     {

@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace Bloxstrap.UI.Elements.Bootstrapper
+namespace AetherStrap.UI.Elements.Bootstrapper
 {
     partial class LegacyDialog2011
     {

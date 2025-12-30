@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Enums
+﻿namespace AetherStrap.Enums
 {
     enum VersionComparison
     {

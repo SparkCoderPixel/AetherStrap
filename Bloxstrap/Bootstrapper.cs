@@ -19,13 +19,13 @@ using System.Windows.Shell;
 
 using Microsoft.Win32;
 
-using Bloxstrap.AppData;
-using Bloxstrap.RobloxInterfaces;
-using Bloxstrap.UI.Elements.Bootstrapper.Base;
+using AetherStrap.AppData;
+using AetherStrap.RobloxInterfaces;
+using AetherStrap.UI.Elements.Bootstrapper.Base;
 
 using ICSharpCode.SharpZipLib.Zip;
 
-namespace Bloxstrap
+namespace AetherStrap
 {
     public class Bootstrapper
     {
@@ -74,9 +74,9 @@ namespace Bloxstrap
         public bool IsStudioLaunch => _launchMode != LaunchMode.Player;
 
         public string MutexName => $"{MutexNamePrefix}-{_launchMode}";
-        public string BackgroundUpdaterMutexName => $"Bloxstrap-BackgroundUpdater-{_launchMode}";
+        public string BackgroundUpdaterMutexName => $"AetherStrap-BackgroundUpdater-{_launchMode}";
 
-        public string MutexNamePrefix { get; set; } = "Bloxstrap-Bootstrapper";
+        public string MutexNamePrefix { get; set; } = "AetherStrap-Bootstrapper";
         public bool QuitIfMutexExists { get; set; } = false;
         #endregion
 
@@ -770,7 +770,7 @@ namespace Bloxstrap
             // i don't like this, but there isn't much better way of doing it /shrug
             if (Process.GetProcessesByName(App.ProjectName).Length > 1)
             {
-                App.Logger.WriteLine(LOG_IDENT, $"More than one Bloxstrap instance running, aborting update check");
+                App.Logger.WriteLine(LOG_IDENT, $"More than one AetherStrap instance running, aborting update check");
                 return false;
             }
 
@@ -799,12 +799,12 @@ namespace Bloxstrap
             string version = App.Version;
 #endif
 
-            SetStatus(Strings.Bootstrapper_Status_UpgradingBloxstrap);
+            SetStatus(Strings.Bootstrapper_Status_UpgradingAetherStrap);
 
             try
             {
 #if DEBUG_UPDATER
-                string downloadLocation = Path.Combine(Paths.TempUpdates, "Bloxstrap.exe");
+                string downloadLocation = Path.Combine(Paths.TempUpdates, "AetherStrap.exe");
 
                 Directory.CreateDirectory(Paths.TempUpdates);
 
@@ -1562,7 +1562,7 @@ namespace Bloxstrap
 
                         Frontend.ShowConnectivityDialog(
                             Strings.Dialog_Connectivity_UnableToDownload,
-                            String.Format(Strings.Dialog_Connectivity_UnableToDownloadReason, "[https://bloxstraplabs.com/wiki/help/bloxstrap-cannot-download-roblox/](https://bloxstraplabs.com/wiki/help/bloxstrap-cannot-download-roblox/)"),
+                            String.Format(Strings.Dialog_Connectivity_UnableToDownloadReason, "[https://AetherStraplabs.com/wiki/help/AetherStrap-cannot-download-roblox/](https://AetherStraplabs.com/wiki/help/AetherStrap-cannot-download-roblox/)"),
                             MessageBoxImage.Error,
                             ex
                         );

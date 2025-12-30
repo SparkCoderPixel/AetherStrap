@@ -1,9 +1,9 @@
 ﻿using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 
-using Bloxstrap.Resources;
+using AetherStrap.Resources;
 
-namespace Bloxstrap.UI.ViewModels.Dialogs
+namespace AetherStrap.UI.ViewModels.Dialogs
 {
     public class UninstallerViewModel
     {

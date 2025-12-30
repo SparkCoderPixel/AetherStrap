@@ -1,6 +1,6 @@
 ﻿using Microsoft.Win32;
 
-namespace Bloxstrap.Extensions
+namespace AetherStrap.Extensions
 {
     public static class ThemeEx
     {

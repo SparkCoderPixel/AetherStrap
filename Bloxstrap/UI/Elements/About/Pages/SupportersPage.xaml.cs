@@ -1,8 +1,8 @@
 ﻿using System.Windows;
 
-using Bloxstrap.UI.ViewModels.About;
+using AetherStrap.UI.ViewModels.About;
 
-namespace Bloxstrap.UI.Elements.About.Pages
+namespace AetherStrap.UI.Elements.About.Pages
 {
     /// <summary>
     /// Interaction logic for SupportersPage.xaml

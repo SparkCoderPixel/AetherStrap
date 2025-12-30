@@ -1,6 +1,6 @@
 ﻿using System.Security.Cryptography;
 
-namespace Bloxstrap.Utility
+namespace AetherStrap.Utility
 {
     public static class MD5Hash
     {

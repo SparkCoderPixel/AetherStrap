@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models.APIs.Config
+﻿namespace AetherStrap.Models.APIs.Config
 {
     public class SupporterData
     {

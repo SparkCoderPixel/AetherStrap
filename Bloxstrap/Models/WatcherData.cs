@@ -1,4 +1,4 @@
-﻿namespace Bloxstrap.Models
+﻿namespace AetherStrap.Models
 {
     internal class WatcherData
     {

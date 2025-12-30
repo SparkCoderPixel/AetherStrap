@@ -1,7 +1,7 @@
 ﻿using System.Windows;
-using Bloxstrap.Resources;
+using AetherStrap.Resources;
 
-namespace Bloxstrap.Utility
+namespace AetherStrap.Utility
 {
     internal static class Shortcut
     {
